@@ -7,15 +7,17 @@
     //echo "<br> ACTUAL: ". $actual;
     //echo "<br>" . $nivel;
   
-    $menu_1 = $menu_2 = $menu_3 = $menu_4 = $menu_5 = $menu_6 = $menu_7 = $menu_8 = "";
-    $curr_1 = $curr_2 = $curr_3 = $curr_4 = $curr_5 = $curr_6 = $curr_7 = $curr_8 = "";
+    $menu_1 = $menu_2 = $menu_3 = $menu_4 = $menu_5 = $menu_6 = $menu_7 = "";
+    $curr_1 = $curr_2 = $curr_3 = $curr_4 = $curr_5 = $curr_6 = $curr_7 = "";
   
         if($actual == "index.php"){       $curr_1 = 'aria-current="page"'; $menu_1 = "active"; }
-    elseif($actual == "historia.php"){    $curr_2 = 'aria-current="page"'; $menu_2 = "active"; }
-    elseif($actual == "estaciones.php"){  $curr_3 = 'aria-current="page"'; $menu_3 = "active"; }
-    elseif($actual == "faq.php"){         $curr_4 = 'aria-current="page"'; $menu_4 = "active"; }
-    elseif($actual == "creditos.php"){    $curr_5 = 'aria-current="page"'; $menu_5 = "active"; }
-    elseif($actual == "contacto.php"){    $curr_6 = 'aria-current="page"'; $menu_6 = "active"; }
+    elseif($actual == "reciente.php"){    $curr_2 = 'aria-current="page"'; $menu_2 = "active"; }
+    elseif($actual == "historia.php"){    $curr_3 = 'aria-current="page"'; $menu_3 = "active"; }
+    elseif($actual == "estaciones.php"){  $curr_4 = 'aria-current="page"'; $menu_4 = "active"; }
+    elseif($actual == "faq.php"){         $curr_5 = 'aria-current="page"'; $menu_5 = "active"; }
+    elseif($actual == "creditos.php"){    $curr_6 = 'aria-current="page"'; $menu_6 = "active"; }
+    elseif($actual == "contacto.php"){    $curr_7 = 'aria-current="page"'; $menu_7 = "active"; }
+
 ?>
 
 
@@ -64,19 +66,23 @@
                         <a class="nav-link <?=$menu_1?>" <?=$curr_1?> href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?=$menu_2?>" <?=$curr_2?> href="historia.php">Historia</a>
+                        <a class="nav-link <?=$menu_2?>" <?=$curr_2?> href="reciente.php">Reciente</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?=$menu_3?>" <?=$curr_3?> href="estaciones.php">Estaciones</a>
+                        <a class="nav-link <?=$menu_3?>" <?=$curr_3?> href="historia.php">Historia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?=$menu_4?>" <?=$curr_4?> href="faq.php">FAQ</a>
+                        <a class="nav-link <?=$menu_4?>" <?=$curr_4?> href="estaciones.php">Estaciones</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link <?=$menu_5?>" <?=$curr_5?> href="faq.php">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?=$menu_5?>" <?=$curr_5?> href="creditos.php">Créditos</a>
+                        <a class="nav-link <?=$menu_6?>" <?=$curr_6?> href="creditos.php">Créditos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?=$menu_6?>" <?=$curr_6?> href="contacto.php">Contacto</a>
+                        <a class="nav-link <?=$menu_7?>" <?=$curr_7?> href="contacto.php">Contacto</a>
                     </li>
                 </ul>
             </div>

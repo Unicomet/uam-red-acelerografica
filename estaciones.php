@@ -21,13 +21,8 @@
 
     <div class="contenido">
 
-
-
-
         <?php include_once('views/navbar.php'); ?>
-
-
-
+        
         <section class="container first-container">
             <div class="row my-3">
                 <div class="col-12 offset-0 col-lg-5 ">

@@ -60,6 +60,10 @@ footer {
     padding: 20px 0 0;
     width: 100%;
 }
+
+h1{
+    font-weight: 600;
+}
 /*-----------------------------------
         NAVBAR                    |
 ------------------------------------*/
@@ -152,7 +156,7 @@ footer {
 
 .navbar-brand img {
     height: auto;
-    width: 45%;
+    width: 50%;
 }
 
 .navbar-nav .nav-link {
@@ -266,7 +270,20 @@ footer p {
 }
 
 
+/*-----------------------------------
+        Carousel                    |
+------------------------------------*/
 
+.carousel a{
+    text-decoration: none;
+    color: var(--rojo);
+    font-weight: 400;
+    transition: font-weight 0.3s ease-in-out 0s;
+}
+
+.carousel a:hover{
+    font-weight: 800;
+}
 
 
 
