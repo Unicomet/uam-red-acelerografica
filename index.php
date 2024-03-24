@@ -129,22 +129,9 @@
     </div>
     <!-- contenido -->
 
-
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX</p>
-                    <p>&copy; UAM AZCAPOTZALCO
-                        <?=date('Y');?>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <!-- footer -->
+    <?php include_once('views/footer.php'); ?>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -222,6 +222,13 @@ footer p {
     line-height: 1.42857143;
 }
 
+footer a {
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 1rem ;
+    color: var(--negro);
+}
+
 .encabezado {
     position: sticky;
     top: 0;

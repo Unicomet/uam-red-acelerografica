@@ -31,57 +31,50 @@
             <div class="row">
 
                 <div class="col-10 offset-1">
-                    <h1>Preguntas Frecuentes (FAQ)</h1>
+                    <h1>Reportes</h1>
                     <h3>Red Acelerográfica UAM</h3>
                 </div>
 
                 <div class="col-10 offset-1 mt-3">
-                    <div class="accordion" id="accordionExample">
+                    <div class="accordion" id="accordi">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    ¿Qué es un sismo?
+                                    2024
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                    Un <strong>sismo</strong> es un rompimiento repentino de las rocas en el interior de la Tierra. Esta liberación repentina de energía se propaga en forma de ondas que provocan el movimiento del terreno.
+                                
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank" title="Sismo del 12-05-2002, Guerrero 3.0 "> 12-05-2002 Guerrero (3.0)</a>
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2010 CDMX (3.0)</a>
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Estado de México (3.0)</a>
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    ¿Qué es un acelerograma?
+                                    2023
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    El acelerograma es el registro de la aceleración en función del tiempo, en un sitio específico, que puede ser una estación localizada en campo libre, en un pozo, o alguna estructura como un edificio, un puente o una presa. Es registrado por los acelerógrafos. Generalmente registran en dos componentes horizontales ortogonales y otra componente vertical. 
+                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
+                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
+                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
                                 </div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    ¿Para que se usan los acelerogramas
+                                    2022
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    Los acelerogramas se utilizan en el análisis dinámico de estructuras, cuando se diseñan construcciones irregulares, cuando se espera que los modos superiores de las estructuras sean excitados, y cunado se requieren análisis dinámicos inelásticos en estructuras diseñadas para niveles altos de ductilidad. También son utilizados en estudios de Riesgo Sísmico.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                ¿Qué es el Peligro Sísmico?
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    El peligro sísmico (o amenaza sísmica) de una región es la probabilidad de que se produzcan en esa zona movimientos del suelo de cierta importancia en un periodo determinado de tiempo. Da una idea de la probabilidad de que se produzcan altas aceleraciones del suelo. A diferencia del Riesgo Sísmico, que se refiere a la probabilidad de ocurrencia de pérdidas materiales o daños ocasionados por sismos (depende de factores antrópicos).
+
                                 </div>
                             </div>
                         </div>
@@ -92,10 +85,6 @@
         </section>
 
 
-
-
-
-        <div class="push"></div>
     </div>
     <!-- contenido -->
 

@@ -27,12 +27,13 @@
             <div class="row mt-3">
                     <div id = "summary" class="col-12 offset-0 col-lg-5 offset-lg-0">
                         <h2 class="fw-bold"> Último sismo </h2>
-                        <p class="fw-bold">TIEMPO DEL CENTRO DE MÉXICO (GMT-6)</h3>
+                        <p class="fw-bold">TIEMPO DEL CENTRO DE MÉXICO</h3>
                         <p>Fecha: </p>
                         <p>Hora: </p>
-                        <p>Magnitud: </p>
-                        <p>Ubicación: </p>
-                        <p>Tiempo: </p>
+                        <p>Epicentro </p>
+                        <p>     Latitud: </p>
+                        <p>     Longitud: </p>
+                        <p>     Localización: </p>
                         <p>Profundidad: </p>
                     </div>
                     <div id="map" class="col-12 col-lg-7 mt-lg-3" style="min-height: 380px;"> </div>
@@ -82,18 +83,8 @@
 
 
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX</p>
-                    <p>&copy; UAM AZCAPOTZALCO
-                        <?=date('Y');?>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- footer -->
+    <?php include_once('views/footer.php'); ?>
 
 
 

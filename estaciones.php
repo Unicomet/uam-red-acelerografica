@@ -81,6 +81,15 @@
                                     <td>37</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row">RIDR</th>
+                                    <td>Rectoría General</td>
+                                    <td>19.2862, -99.1367</td>
+                                    <td>2248</td>
+                                    <td>Limos y arenas arcillosas</td>
+                                    <td>2012<sup>(2)</sup></td>
+                                    <td>9</td>
+                                </tr>
+                                <tr>
                                     <th scope="row">RIDI</th>
                                     <td>Iztapalapa</td>
                                     <td>19.360, -99.060</td>
@@ -108,12 +117,21 @@
                                     <td>8</td>
                                 </tr>
                                 <tr>
+                                    <th scope="row">UAMR</th>
+                                    <td>Rectoría General</td>
+                                    <td>19.2871, -99.1371</td>
+                                    <td>2245</td>
+                                    <td>Limos y arenas arcillosas</td>
+                                    <td>2012<sup>(1)</sup></td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
                                     <th scope="row">UAMI</th>
                                     <td>Iztapalapa</td>
                                     <td>19.3645, -99.0721</td>
                                     <td>2228</td>
                                     <td>Limos y arenas arcillosas</td>
-                                    <td>2012<sup>(*)</sup></td>
+                                    <td>2012<sup>(1)</sup></td>
                                     <td>8</td>
                                 </tr>
                             </tbody>
@@ -145,21 +163,8 @@
     <!-- contenido -->
 
 
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX</p>
-                    <p>&copy; UAM AZCAPOTZALCO
-                        <?=date('Y');?>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <!-- footer -->
+    <?php include_once('views/footer.php'); ?>
 
 
 

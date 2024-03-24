@@ -23,8 +23,8 @@
             "<p>Estacion ubicada en la UAM Azcapotzalco" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/azcapotzalco.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/azcapotzalco.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -60,8 +60,8 @@
             "<p>Estacion ubicada en la UAM Iztapalapa" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/iztapalapa.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/iztapalapa.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -96,8 +96,8 @@
             "<p>Estacion ubicada en la UAM Xochimilco" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/xochimilco.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/xochimilco.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -132,8 +132,8 @@
             "<p>Estacion en Rectoría" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/rectoria-general.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/rectoria-general.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -165,11 +165,11 @@
             '<h3 id="firstHeading" class="firstHeading">RIML, Lerma</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion en Lerma" + 
+            "<p>Estacion ubicada en Lerma" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<img src="storage/estaciones/lerma.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -205,7 +205,7 @@
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<img src="storage/estaciones/lerma.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -240,8 +240,8 @@
             "<p>Estacion en Rectoría" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/rectoria-general.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/rectoria-general.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -277,8 +277,8 @@
             "<p>Estacion en UAM Iztapalapa" + 
             "<br>"+
             "<picture>"+
-                '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
-                '<img src="storage/estaciones/lerma.png" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
+                '<source srcset="storage/estaciones/iztapalapa.webp" type="image/webp" width = 100px >' +
+                '<img src="storage/estaciones/iztapalapa.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
             "</div>";
@@ -295,7 +295,7 @@
                 lng: -99.0721
             },
             map: map,
-            title: 'UAMI, Rectoría General'
+            title: 'UAMI'
         });
 
         markerUAMI.addListener("click", () => {

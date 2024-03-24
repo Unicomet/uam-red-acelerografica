@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-
+    
 
 </head>
 
@@ -22,20 +22,19 @@
     <div class="contenido">
 
 
+        <!-- Button trigger modal -->
 
 
+        <?php include_once('views/navbar.php'); ?>
 
-
-
-
-    <?php include_once('views/navbar.php'); ?>
-
-
-
-
+        
 
         <section class="first-container">
             <div class="container">
+                
+
+            
+
                 <div class="row">
 
                     <div class="col-12">
@@ -206,18 +205,8 @@
 
 
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX</p>
-                    <p>&copy; UAM AZCAPOTZALCO
-                        <?= date('Y'); ?>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- footer -->
+    <?php include_once('views/footer.php'); ?>
 
 
 
