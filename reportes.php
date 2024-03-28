@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preguntas Frecuentes - Red Acelerográfica UAM</title>
-    <meta name="description" content="Preguntas Frecuentes (FAQ) de la red acelerográfica UAM">
+    <title>Reportes - Red Acelerográfica UAM</title>
+    <meta name="description" content="Reportes de la Red Acelerográfica UAM">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 
 
 
-
+                        
     <div class="contenido">
 
 
@@ -36,45 +36,49 @@
                 </div>
 
                 <div class="col-10 offset-1 mt-3">
-                    <div class="accordion" id="accordi">
+                    <div class="accordion" id="accordi"> 
+                        <!-- Pegar Aquí debajo el código para agregar un nuevo año -->
+                        
+                        <!--Año 2024 -->
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2 class="accordion-header" >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
                                     2024
                                 </button>
                             </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div id="collapse24" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank" title="Sismo del 12-05-2002, Guerrero 3.0 "> 12-05-2002 Guerrero (3.0)</a>
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2010 CDMX (3.0)</a>
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Estado de México (3.0)</a>
+                                <!-- Pegar Aquí debajo el código para agregar un nuevo reporte -->
+                                <a class="list-group-item" href="storage/reports/nombre_archivo.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
+
                                 </div>
                             </div>
                         </div>
+
+                        
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h2 class="accordion-header" >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
                                     2023
                                 </button>
                             </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
-                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
-                                    <a class="list-group-item" href="storage/reports/sol_beca.pdf" target="_blank"> 12-05-2002</a> 
+                            <div id="collapse23" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <!-- Pegar Aquí debajo el código para agregar un nuevo reporte -->
                                 </div>
                             </div>
                         </div>
+
+                        
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h2 class="accordion-header" >
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
                                     2022
                                 </button>
                             </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-
+                            <div id="collapse22" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <!-- Pegar Aquí debajo el código para agregar un nuevo reporte -->
                                 </div>
                             </div>
                         </div>
