@@ -61,8 +61,7 @@
                                         <th>RIML</th>
                                         <th>RUML</th>
                                         <th>RIDR</th>
-                                        <th>UAMI</th>
-                                        <th>UAMR</th>
+                                        <th>RUMC</th>
                                         <th>Datos</th>
                                         <th>Imagen</th>
                                     </tr>
@@ -128,11 +127,6 @@
                                                         <span class="iconify" data-icon="akar-icons:circle-check" data-inline="false" style="color: GREEN;"></span>
                                                     <?php } ?> 
                                                 </td>
-                                                <td class="text-center">
-                                                    <?php if($data[13]){ ?>
-                                                        <span class="iconify" data-icon="akar-icons:circle-check" data-inline="false" style="color: GREEN;"></span>
-                                                    <?php } ?> 
-                                                </td>
                                                 <td>
                                                     <?php 
                                                     if(!empty($arrDoc)){ 
@@ -161,23 +155,30 @@
 
         </section>
 
-
-
-
+        <div class="col-12 contador-descargas" >
+            <p> Contador de descargas: 10000</p>
+        </div>
 
         <div class="push"></div>
+        
+        
+
+        <div class="aviso-cookies" id="aviso-cookies">
+		<h3 class="titulo">Políticas de uso</h3>
+		<p class="parrafo">Para descargar los registros de la aceleración debe estar de acuerdo con las políticas de uso. </p>
+        <p> Contenido: Archivos de aceleración proporcionados en el formato ascii estándar ASA2.0 pertenecen a la red acelerográfica del 
+            Instituto de Ingeniería y NO PUEDEN SER REDISTRIBUIDOS en su forma original o modificada.</p>
+        <p> Citar: Al utilizar los datos proporcionados se solicita incluir en las publicaciones, reportes o trabajos la siguiente cita: “Los registros acelerográficos proporcionados han sido producto de las labores de instrumentación y procesamiento de la Red Acelerográfica de la Universidad Autónoma Metropolitana”.</p>
+		<button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+		<a class="enlace" href="aviso-cookies.html">Políticas</a>
+	</div>
+	<div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+
     </div>
+    
     <!-- contenido -->
-
-
-
-
-
-
-
-
- 
-
+    
     <!-- The Modal -->
     <div class="modal" id="modalRegistro">
         <div class="modal-dialog modal-lg">
@@ -205,17 +206,17 @@
 
 
 
+
     <!-- footer -->
     <?php include_once('views/footer.php'); ?>
-
-
-
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="assets/js/ra-uam.js"></script>
+    <script src="assets/js/aviso-cookies.js"></script>
+
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {

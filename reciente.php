@@ -39,7 +39,7 @@
                     <div id="map" class="col-12 col-lg-7 mt-lg-3" style="min-height: 380px;"> </div>
             </div>
 
-            <div class="row mt-5">     
+            <!-- <div class="row mt-5">     
                 <div id ="advice" class="text-center w-200 col-lg-12">
                             <p class="fs-6 fw-bold text-center"> Hasta las 15:30 horas del 7/diciembre/2023 no se han registrado réplicas del sismo de M 5.7 ocurrido en Puebla el 7/diciembre/2023</p>
                         </div>
@@ -67,20 +67,19 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                         </button>
-                        <!-- <div class="carousel-indicators">
+                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carousel-reports" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                             <button type="button" data-bs-target="#carousel-reports" data-bs-slide-to="1" aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carousel-reports" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div> -->
+                        </div> 
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <div class="push"></div>
     </div>
     <!-- contenido -->
-
 
 
     <!-- footer -->
@@ -94,7 +93,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="assets/js/ra-uam.js"></script>
-    <?php include_once("include/google_map_recent.php")?>
+    <?php include_once("include/google_map_reciente.php")?>
     
 </body>
 

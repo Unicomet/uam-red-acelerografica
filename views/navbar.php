@@ -29,8 +29,8 @@
                 <div class="col-5 col-md-3">
                     <a href="index.php">
                         <picture>
-                            <source srcset="assets/img/logo-uam-azcapotzalco.webp" type="image/webp">
-                            <img src="assets/img/logo-uam-azcapotzalco.png" class="img-fluid" alt="uam, red, acelerográfica" >
+                            <source srcset="assets/img/logo-uam-6.webp" type="image/webp">
+                            <img src="assets/img/logo-uam-6.jpg" class="img-fluid" alt="uam, red, acelerográfica" >
                         </picture>
                     </a>
                 </div>

@@ -24,7 +24,7 @@
         <?php include_once('views/navbar.php'); ?>
         
         <section class="container first-container">
-            <div class="row my-3">
+            <div class="row my-2 ">
                 <div class="col-12 offset-0 col-lg-5 ">
                     <div class="col-12 offset-0 col-lg-12 offset-lg-0">
                         <h1>Estaciones</h1>
@@ -43,7 +43,7 @@
                 </div>
                 <div id="map" class="col-sm offset-0 col-lg mx-3 mt-4"> </div>
             </div>
-
+            
             <div class="col-12 mt-5">
                     <div class="table-responsive">
                         <table class="table table-hover">
@@ -173,7 +173,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="assets/js/ra-uam.js"></script>
-    <?php include_once("include/google_map.php")?>
+    <?php include_once("include/google_map_estaciones.php")?>
     
 </body>
 

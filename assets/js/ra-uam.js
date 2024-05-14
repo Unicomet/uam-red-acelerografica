@@ -1,4 +1,4 @@
-<!--
+
 function toogleSideNav(x) {
     var activo = x.classList.contains('active');
     if (activo) document.getElementById("mySidenav").style.width = "0";
@@ -44,18 +44,6 @@ function mostrarImg(nameImg, rutaImg){
     myModal.show();
 }
 
-function showTermsConditions(){
-    const myModal    = new bootstrap.Modal($("#modalRegistro"));
-    //const modalHader = $('#modalRegistroTitulo');
-    const modalBody  = $('#modalRegistroBody');
-    //modalHader.html(nameImg);
-    modalBody.html('<img alt="'+nameImg+'" src="'+rutaImg+'" style="width:100%; height:auto">');
-    myModal.show();
-}
-
-
-
-
 
 function envioFormulario() {
     Swal.fire({
@@ -67,6 +55,3 @@ function envioFormulario() {
     })
 }
 
-
-
--->

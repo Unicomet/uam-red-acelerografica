@@ -49,7 +49,9 @@
                             <div id="collapse24" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <!-- Pegar Aquí debajo el código para agregar un nuevo reporte -->
-                                <a class="list-group-item" href="storage/reports/nombre_archivo.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
+                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
 
                                 </div>
                             </div>
@@ -95,13 +97,8 @@
     <!-- footer -->
     <?php include_once('views/footer.php'); ?>
 
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script src="assets/js/ra-uam.js"></script>
 </body>
 </html>

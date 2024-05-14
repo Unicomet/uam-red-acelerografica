@@ -6,7 +6,7 @@
                     <p>&copy; UAM AZCAPOTZALCO
                         <?=date('Y');?>
                     </p>
-                    <a class="fw-bold" href="contacto.php"> Contacto </a>
+                    <a href="contacto.php"> Contacto </a>
                 </div>
             </div>
         </div>

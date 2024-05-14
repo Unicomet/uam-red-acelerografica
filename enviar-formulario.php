@@ -12,7 +12,7 @@ $contenido =
 "<br>Correo: ".$correo.
 "<br>Mensaje: ".$mensaje;
 
-$subject  = "UAM | Formulario contacto";
+$subject  = "PAGINA RED UAM | Formulario contacto";
 $subject = '=?UTF-8?B?'.base64_encode($subject).'?=';
 
 $headers = "MIME-Version: 1.0" . "\r\n";

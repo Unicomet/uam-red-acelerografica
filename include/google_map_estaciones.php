@@ -17,13 +17,13 @@
         const contentString =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RIDA, Azcapotzalco</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RIDA, Azcapotzalco</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion ubicada en la UAM Azcapotzalco" + 
-            "<br>"+
-            "<picture>"+
-                '<source srcset="storage/estaciones/azcapotzalco.webp" type="image/webp" width = 100px >' +
+            "<p>Estación ubicada en UAM Azcapotzalco" + 
+            "<br><br>"+
+            "<picture class= 'center'>"+
+                '<source srcset="storage/estaciones/azcapotzalco.webp" type="image/webp" width = 110px >' +
                 '<img src="storage/estaciones/azcapotzalco.jpg" class="img-fluid" alt="uam, red, acelerográfica, lerma">' +
             '</picture>'
             "</div>" +
@@ -33,6 +33,7 @@
             content: contentString,
             ariaLabel: "RIDA",
             maxWidth: "800px",
+            minWidth: "500px",
         });
 
         var marker = new google.maps.Marker({
@@ -54,10 +55,10 @@
         const contentRIDI =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RIDI, Iztapalapa</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RIDI, Iztapalapa</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion ubicada en la UAM Iztapalapa" + 
+            "<p>Estación ubicada en UAM Iztapalapa" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/iztapalapa.webp" type="image/webp" width = 100px >' +
@@ -90,10 +91,10 @@
         const contentRIDX =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RIDX, Xochimilco</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RIDX, Xochimilco</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion ubicada en la UAM Xochimilco" + 
+            "<p>Estación ubicada en UAM Xochimilco" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/xochimilco.webp" type="image/webp" width = 100px >' +
@@ -126,10 +127,10 @@
         const contentRIDR =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RIDR, Rectoría</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RIDR, Rectoría General</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion en Rectoría" + 
+            "<p>Estación ubicada en Rectoría General" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/rectoria-general.webp" type="image/webp" width = 100px >' +
@@ -162,10 +163,10 @@
         const contentRIML =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RIML, Lerma</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RIML, Lerma</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion ubicada en Lerma" + 
+            "Estación ubicada en UAM Lerma" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
@@ -198,10 +199,10 @@
         const contentRUML =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">RUML, Lerma</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">RUML, Lerma</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion en Lerma" + 
+            "<p>Estación ubicada en UAM Lerma" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/lerma.webp" type="image/webp" width = 100px >' +
@@ -234,10 +235,10 @@
         const contentUAMR =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">UAMR, Rectoría</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">UAMR, Rectoría General</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion en Rectoría" + 
+            "<p>Estación ubicada en Rectoría General" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/rectoria-general.webp" type="image/webp" width = 100px >' +
@@ -271,10 +272,10 @@
         const contentUAMI =
             '<div id="content">' +
             '<div id="siteNotice">' +
-            '<h3 id="firstHeading" class="firstHeading">UAMI, Iztapalapa</h1>' +
+            '<h4 id="firstHeading" class="firstHeading">UAMI, Iztapalapa</h1>' +
             "</div>" +
             '<div id="bodyContent">' +
-            "<p>Estacion en UAM Iztapalapa" + 
+            "<p>Estación ubicada en UAM Iztapalapa" + 
             "<br>"+
             "<picture>"+
                 '<source srcset="storage/estaciones/iztapalapa.webp" type="image/webp" width = 100px >' +
