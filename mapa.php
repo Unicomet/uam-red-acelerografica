@@ -92,11 +92,11 @@
             <?
             foreach($arrRegistros as $num => $arrValores){
                 $img = '';
-                    if($arrValores[2] < 4.1) $img = "assets/img/mag-04.png";
-                elseif($arrValores[2] < 5.1) $img = "assets/img/mag-05.png";
-                elseif($arrValores[2] < 6.1) $img = "assets/img/mag-06.png";
-                elseif($arrValores[2] < 7.1) $img = "assets/img/mag-07.png";
-                else $img = "assets/img/mag-08.png"; 
+                    if($arrValores[2] < 4.1) $img = "assets/img/dot-04.png";
+                elseif($arrValores[2] < 5.1) $img = "assets/img/dot-05.png";
+                elseif($arrValores[2] < 6.1) $img = "assets/img/dot-06.png";
+                elseif($arrValores[2] < 7.1) $img = "assets/img/dot-07.png";
+                else $img = "assets/img/dot-08.png"; 
                 ?>
                 var marker_<?=$num?> = new google.maps.Marker({
                     position: {

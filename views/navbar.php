@@ -49,18 +49,12 @@
         <a href="reportes.php">Reportes</a>
         <a href="estaciones.php">Estaciones</a>
         <a href="historia.php">Historia</a>
-        <a href="faq.php">FAQ</a>
-        <a href="creditos.php">Creditos</a>
-
     </div>
 
     <nav class="navbar fixed-top navbar-expand-xl d-none d-xl-block">
         <div class="container">
             <a class="navbar-brand" href="index.php">
-                <picture>
-                    <source srcset="assets/img/logo-uam-06.webp" type="image/webp">
-                    <img src="assets/img/logo-uam-06.png" alt="uam, red, acelerográfica">
-                </picture>
+                <img src="assets/img/logo-uam-06.png" alt="uam, red, acelerográfica">
             </a>
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -78,12 +72,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?=$menu_6?>" <?=$curr_6?> href="historia.php">Historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?=$menu_5?>" <?=$curr_5?> href="faq.php">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link <?=$menu_7?>" <?=$curr_7?> href="creditos.php">Créditos</a>
                     </li>
                 </ul>
             </div>

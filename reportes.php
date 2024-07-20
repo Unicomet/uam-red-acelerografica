@@ -49,9 +49,7 @@
                             <div id="collapse24" class="accordion-collapse collapse"  data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <!-- Pegar Aquí debajo el código para agregar un nuevo reporte -->
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
-                                <a class="list-group-item" href="storage/reports/reporte_2024.pdf" target="_blank"> 12-05-2002 Título Reporte</a> 
+                                <a class="list-group-item" href="storage/reports/REPORTE_RA-UAM_SISMOS_09_2022.pdf" target="_blank"> Reporte del sismo del 19 de Septiembre del 2022 </a> 
 
                                 </div>
                             </div>

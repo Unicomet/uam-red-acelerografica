@@ -22,7 +22,7 @@
 
     <div class="contenido">
 
-        <?php include_once('views/navbar.php'); ?>
+        <?php include_once "views/navbar.php"; ?>
         
         <section class="container first-container">
             <div class="row">
@@ -31,9 +31,10 @@
                     <h1>Red Acelerográfica UAM</h1>
 
                     <p class="mt-5">
-                        Los sucesos del terremoto del 19 de septiembre de 1985 y las catástrofes derivadas de él, concientizaron a las instituciones encargadas de salvaguardar la integridad física de la población, de la necesidad de protocolos tanto de prevención como de contención
-                        de desastres sísmicos. En el sismo de Michoacán de septiembre 1985 (M=8.1), la Universidad Autónoma Metropolitana, Unidad Azcapotzalco (UAM-Azcapotzalco), desarrolló una serie de proyectos de investigación sobre vulnerabilidad
-                        sísmica, sobre reparación de estructuras y sobre peligro y riesgo sísmico. Desde entonces a la fecha ha continuado realizando proyectos relacionados con la Ingeniería Sísmica.
+                        La Red Acelerográfica de la Universidad Autónoma Metropolitana (RA-UAM), instalada para el registro de
+                        movimientos fuertes del terreno, pone a disposición un catálogo de más de 900 acelerogramas de tres
+                        componentes, registrados durante más de 160 sismos identificados en el periodo de tiempo de 1993 a 2024,
+                        cuyas magnitudes están en el intervalo de M= 4.1 a M=8.2.
                     </p>
                 </div>
             </div>
@@ -53,13 +54,13 @@
                             <p><strong>Sismos Catalogados</strong></p>  
                             <div class="row">
                                 <div class="col-6 col-lg-12">
-                                    <p><img src="assets/img/mag-04.png" alt="pin magnitud hasta 4"   class="img-fluid me-3"> 1.9 - 4.0 </p>
-                                    <p><img src="assets/img/mag-05.png" alt="pin magnitud hasta 5"   class="img-fluid me-3"> 4.1 - 5.0 </p>
-                                    <p><img src="assets/img/mag-06.png" alt="pin magnitud hasta 6"   class="img-fluid me-3"> 5.1 - 6.0 </p>
+                                    <p><img src="assets/img/dot-04.png" alt="pin magnitud hasta 4"   class="img-fluid me-3"> 1.9 - 4.0 </p>
+                                    <p><img src="assets/img/dot-05.png" alt="pin magnitud hasta 5"   class="img-fluid me-3"> 4.1 - 5.0 </p>
+                                    <p><img src="assets/img/dot-06.png" alt="pin magnitud hasta 6"   class="img-fluid me-3"> 5.1 - 6.0 </p>
                                 </div>
                                 <div class="col-6 col-lg-12">
-                                    <p><img src="assets/img/mag-07.png" alt="pin magnitud hasta 7"   class="img-fluid me-3"> 6.1 - 7.0 </p>
-                                    <p><img src="assets/img/mag-08.png" alt="pin magnitud hasta 8.2" class="img-fluid me-3"> 7.1 - 8.2 </p>
+                                    <p><img src="assets/img/dot-07.png" alt="pin magnitud hasta 7"   class="img-fluid me-3"> 6.1 - 7.0 </p>
+                                    <p><img src="assets/img/dot-08.png" alt="pin magnitud hasta 8.2" class="img-fluid me-3"> 7.1 - 8.2 </p>
                                 </div>
                             </div>
                         </div>
@@ -122,15 +123,12 @@
         </section>
 
 
-
-
-
         <div class="push"></div>
     </div>
     <!-- contenido -->
 
     <!-- footer -->
-    <?php include_once('views/footer.php'); ?>
+    <?php include_once "views/footer.php"; ?>
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
@@ -138,7 +136,7 @@
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="assets/js/ra-uam.js"></script>
     
-    <?php include_once("include/arreglo_registros.php")?>
+    <?php include_once "include/arreglo_registros.php"; ?>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPLm6fP7MRTF1XO6Zmpw3cxG9CG47VcZY&callback=iniciarMapa"></script>
     <script>
 
@@ -155,30 +153,44 @@
                 draggable:true, 
                 mapTypeId:google.maps.MapTypeId.ROADMAP
             });
-            <?php
-            foreach($arrRegistros as $num => $arrValores){
-                $img = '';
-                    if($arrValores[2] < 4.1) $img = "assets/img/mag-04.png";
-                elseif($arrValores[2] < 5.1) $img = "assets/img/mag-05.png";
-                elseif($arrValores[2] < 6.1) $img = "assets/img/mag-06.png";
-                elseif($arrValores[2] < 7.1) $img = "assets/img/mag-07.png";
-                else $img = "assets/img/mag-08.png"; 
+            <?php foreach ($arrRegistros as $num => $arrValores) {
+
+                $img = "";
+                if ($arrValores[2] < 4.1) {
+                    $img = "assets/img/dot-04.png";
+                } elseif ($arrValores[2] < 5.1) {
+                    $img = "assets/img/dot-05.png";
+                } elseif ($arrValores[2] < 6.1) {
+                    $img = "assets/img/dot-06.png";
+                } elseif ($arrValores[2] < 7.1) {
+                    $img = "assets/img/dot-07.png";
+                } else {
+                    $img = "assets/img/dot-08.png";
+                }
                 ?>
-                var marker_<?=$num?> = new google.maps.Marker({
+                var marker_<?= $num ?> = new google.maps.Marker({
                     position: {
-                        lat: <?=$arrValores[3]?>, //en el subarreglo la latutud esta en la pisicion 3
-                        lng: <?=$arrValores[4]?>
+                        lat: <?= $arrValores[3] ?>, //en el subarreglo la latutud esta en la pisicion 3
+                        lng: <?= $arrValores[4] ?>
                     },
                     map: mapRegistros,
-                    title: '<?=$num . ": " . "Magnitud " . $arrValores[2] . " Profundidad " . $arrValores[5] . " " . $arrValores[0]?>',
-                    icon: '<?=$img?>'
+                    title: '<?= $num .
+                        ": " .
+                        "Magnitud " .
+                        $arrValores[2] .
+                        " Profundidad " .
+                        $arrValores[5] .
+                        " " .
+                        $arrValores[0] ?>',
+                    icon: '<?= $img ?>'
                 });
-                google.maps.event.addListener(marker_<?=$num?>, "click", function(){  
+                google.maps.event.addListener(marker_<?= $num ?>, "click", function(){  
                     iw.setContent("<div id='boxCoordenada'></div>");
-                    infoRegistro('<?=$num?>')
+                    infoRegistro('<?= $num ?>')
                     iw.open(mapRegistros, this);
                 });
-            <?php }?>
+            <?php
+            } ?>
         }
     </script>
 </body>

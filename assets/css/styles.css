@@ -1,8 +1,8 @@
 :root {
     --negro: #000000;
     --rojo: #B72223;
-    --gris: #726F6F;
-    --claro: #e0e0e0;
+    --gris: #5a5858;
+    --claro: #d7d9e0;
     --fondo: #C6DAD8;
     --azca: #CD032E;
     --cuaji: #F08200;
@@ -156,7 +156,7 @@ h1{
 
 .navbar-brand img {
     height: auto;
-    width: 50%;
+    width: 25%;
 }
 
 .navbar-nav .nav-link {
@@ -213,7 +213,7 @@ footer {
     background-color: var(--claro);
     margin-top: 30px;
     min-height: 100px;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 footer p {
