@@ -33,31 +33,31 @@
             <div class="row">
 
                 <div class="col-10 offset-1">
-                    <h1>Contacto</h1>
+                    <h1 data-i18n="contact-title">Contacto</h1>
                     <h3>Red Acelerográfica UAM</h3>
                 </div>
 
                 <div class="col-10 offset-1 col-lg-8 offset-lg-2 mt-3">
                     <form id="form-contacto" action="enviar-formulario.php" method="post">
                         <div class="mb-3">
-                            <label for="" class="form-label">Nombre:*</label>
+                            <label for="" class="form-label" data-i18n="contact-form-name">Nombre:*</label>
                             <input type="text" class="form-control" id="nombre" name="nombre" required>
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">Ciudad:*</label>
+                            <label for="" class="form-label" data-i18n="contact-form-city">Ciudad:*</label>
                             <input type="text" class="form-control" id="ciudad" name="ciudad" required>
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">Correo electrónico:</label>
-                            <input type="email" class="form-control" id="correo" name="correo" placeholder="nombre@example.com" required>
+                            <label for="" class="form-label" data-i18n="contact-form-email">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="correo" name="correo" placeholder="xxxxx@example.com" required>
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">Mensaje:</label>
+                            <label for="" class="form-label" data-i18n="contact-form-message">Mensaje:</label>
                             <textarea class="form-control" id="mensaje" name="mensaje" rows="3" required></textarea>
                         </div>
 
                         <div class="w-100 text-end">
-                            <button class="btn btn-outline-danger btn-lg" type="submit">ENVIAR</button>
+                            <button class="btn btn-outline-danger btn-lg" type="submit" data-i18n="contact-form-submit">ENVIAR</button>
                         </div>
                     </form>
                 </div>
@@ -74,21 +74,8 @@
     <!-- contenido -->
 
 
-
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p>Av. San Pablo 180, Col. Reynosa Tamaulipas, Alcaldía Azcapotzalco, C.P. 02200, CDMX</p>
-                    <p>&copy; UAM AZCAPOTZALCO
-                        2024                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
+    <!-- footer -->
+    <?php include_once('views/footer.php'); ?>
 
 
 

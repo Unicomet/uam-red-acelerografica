@@ -36,19 +36,19 @@
             <div class="row">
 
                 <div class="col-12 offset-0 col-lg-10 offset-lg-0">
-                    <h1>Créditos</h1>
-                    <h3>RED ACELEROGRÁFICA DE LA UAM-Azcapotzalco (RA-UAM)</h3>
+                    <h1 data-i18n="credits-title">Créditos</h1>
+                    <h3>RED ACELEROGRÁFICA UAM (RA-UAM)</h3>
                 </div>
 
                 <div class="col-12 col-lg-6 mt-5">
                     <div class="row">
                         <div class="col-2 col-lg-3">
                             <span class="creditos-icono">
-                                <span class="iconify" data-icon="carbon:text-link-analysis"></span>                        
+                                <span class="iconify" data-icon="carbon:text-link-analysis"></span>
                             </span>
                         </div>
                         <div class="col-9 offset-1 col-lg-9 offset-lg-0">
-                            <p class="creditos-titulo">ANÁLISIS Y PROCESAMIENTO SÍSMICO</p>
+                            <p class="creditos-titulo" data-i18n="credits-category-1">ANÁLISIS Y PROCESAMIENTO SÍSMICO</p>
                             <ul class="creditos-listado">
                                 <li>Alonso Gómez Bernal</li>
                             </ul>
@@ -60,11 +60,11 @@
                     <div class="row">
                         <div class="col-2 col-lg-3">
                             <span class="creditos-icono">
-                                <span class="iconify" data-icon="pajamas:issue-type-maintenance"></span>                        
+                                <span class="iconify" data-icon="pajamas:issue-type-maintenance"></span>
                             </span>
                         </div>
                         <div class="col-9 offset-1 col-lg-9 offset-lg-0">
-                            <p class="creditos-titulo">OPERACIÓN Y MANTENIMIENTO DE ESTACIONES ACELEROGRÁFICAS</p>
+                            <p class="creditos-titulo" data-i18n="credits-category-2">OPERACIÓN Y MANTENIMIENTO DE ESTACIONES ACELEROGRÁFICAS</p>
                             <ul class="creditos-listado">
                                 <li>Alonso Gómez Bernal</li>
                             </ul>
@@ -76,11 +76,11 @@
                     <div class="row">
                         <div class="col-2 col-lg-3">
                             <span class="creditos-icono">
-                                <span class="iconify" data-icon="material-symbols:earthquake"></span>                        
+                                <span class="iconify" data-icon="material-symbols:earthquake"></span>
                             </span>
                         </div>
                         <div class="col-9 offset-1 col-lg-9 offset-lg-0">
-                            <p class="creditos-titulo">PARÁMETROS SÍSMICOS</p>
+                            <p class="creditos-titulo" data-i18n="credits-category-3">PARÁMETROS SÍSMICOS</p>
                             <ul class="creditos-listado">
                                 <li>Servicio Sismológico Nacional del Instituto de Geofísica, UNAM</li>
                             </ul>
@@ -92,11 +92,11 @@
                     <div class="row">
                         <div class="col-2 col-lg-3">
                             <span class="creditos-icono">
-                                <span class="iconify" data-icon="mdi:web"></span>                        
+                                <span class="iconify" data-icon="mdi:web"></span>
                             </span>
                         </div>
                         <div class="col-9 offset-1 col-lg-9 offset-lg-0">
-                            <p class="creditos-titulo">PORTAL WEB</p>
+                            <p class="creditos-titulo" data-i18n="credits-category-4">PORTAL WEB</p>
                             <ul class="creditos-listado">
                                 <li><a href="https://puntozip.com.mx/" target="_blank" rel="noopener">Punto Zip</a></li>
                             </ul>
