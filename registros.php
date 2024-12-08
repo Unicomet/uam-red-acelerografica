@@ -131,7 +131,7 @@
                                                     <?php 
                                                     if(!empty($arrDoc)){ 
                                                         foreach($arrDoc as $file){ ?>
-                                                            <a href="storage/data/<?=$file?>" target="_blank">Descargar</a>
+                                                            <a class="download-button" href="storage/data/<?=$file?>" target="_blank" click>Descargar</a>
                                                     <?php 
                                                         }
                                                     } 
@@ -139,7 +139,7 @@
                                                 </td>
                                                 <td>
                                                     <?php  foreach($arrImg as $imagen){ ?>
-                                                        <img alt="<?=$imagen?>" class="clicleable" width="85" height="45" src="storage/img/<?=$imagen?>" onclick="mostrarImg('<?=$data[0]?>', 'storage/img/<?=$imagen?>')" loading="lazy">
+                                                        <img alt="<?=$imagen?>" class="clicleable frame-image" width="85" height="45" src="storage/img/<?=$imagen?>" onclick="mostrarImg('<?=$data[0]?>', 'storage/img/<?=$imagen?>')" loading="lazy">
                                                     <?php } ?>
                                                 </td>
                                             </tr>
@@ -156,7 +156,7 @@
         </section>
 
         <div class="col-12 contador-descargas" >
-            <p> Contador de descargas: 10000</p>
+            <p> Contador de descargas: </p>
         </div>
 
         <div class="push"></div>
