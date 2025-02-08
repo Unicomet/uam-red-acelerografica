@@ -1,4 +1,5 @@
 const botonAceptarCookies = document.getElementById("btn-aceptar-cookies");
+const botonCerrarCookies = document.getElementById("btn-cerrar-cookies");
 const avisoCookies = document.getElementById("aviso-cookies");
 const fondoAvisoCookies = document.getElementById("fondo-aviso-cookies");
 
@@ -23,4 +24,10 @@ botonAceptarCookies.addEventListener("click", () => {
         window.open(currentDownloadLink, "_blank");
         currentDownloadLink = "";
     }
+});
+
+botonCerrarCookies.addEventListener("click", () => {
+    avisoCookies.classList.remove("activo");
+    fondoAvisoCookies.classList.remove("activo");
+    currentDownloadLink = ""; // Clear the current download when closing
 });

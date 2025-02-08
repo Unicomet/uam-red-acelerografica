@@ -162,6 +162,7 @@
         <div class="push"></div>
 
         <div class="aviso-cookies" id="aviso-cookies">
+            <button type="button" class="btn-close" id="btn-cerrar-cookies" aria-label="Close"></button>
             <h3 class="titulo">Políticas de uso</h3>
             <p class="parrafo">Para descargar los registros de la aceleración debe estar de acuerdo con las políticas de uso. </p>
             <p> Contenido: Archivos de aceleración proporcionados en el formato ascii estándar ASA2.0 pertenecen a la red acelerográfica del
