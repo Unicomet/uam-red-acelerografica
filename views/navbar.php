@@ -37,44 +37,39 @@ if ($actual == "index.php") {
 
 
 
-<nav class="nav-mobile d-block d-xl-none">
-    <div class="container">
-        <div>
-            <a class="navbar-brand" href="index.php">
-                <img src="assets/img/logo-uam-06.png" class="img-fluid" alt="uam, red, acelerográfica">
-            </a>
-        </div>
-
-        <div class="d-flex align-items-center">
-            <select onchange="changeLanguage(this)" class="form-select w-auto h-50  bg-secondary text-white me-4" id="lang-switcher">
-                <option selected value="es">Español</option>
-                <option value="en">English</option>
-            </select>
-            <div onclick="toogleSideNav(this)">
+<nav id="nav-mobile" class="d-block d-xl-none">
+    <div class="container" onclick="toogleSideNav(this)">
+        <div class="row">
+            <div class="col-5 col-md-3">
+                <a href="index.php">
+                    <picture>
+                        <source srcset="assets/img/logo-uam-6.webp" type="image/webp">
+                        <img src="assets/img/logo-uam-6.jpg" class="img-fluid" alt="uam, red, acelerográfica">
+                    </picture>
+                </a>
+            </div>
+            <div class="col-2 offset-5 col-md-1 offset-md-8">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
             </div>
-
         </div>
     </div>
 </nav>
 
 <div id="mySidenav" class="sidenav">
-    <a href="index.php" data-i18n="nav-home">Inicio</a>
-    <!-- <a href="reciente.php">Reciente</a> -->
-    <a href="reportes.php" data-i18n="nav-reports">Reportes</a>
-    <a href="estaciones.php" data-i18n="nav-stations">Estaciones</a>
-    <a href="historia.php" data-i18n="nav-history">Historia</a>
+    <a href="index.php">Inicio</a>
+    <a href="reciente.php">Reciente</a>
+    <a href="reportes.php">Reportes</a>
+    <a href="estaciones.php">Estaciones</a>
+    <a href="historia.php">Historia</a>
 </div>
 
 <nav class="navbar fixed-top navbar-expand-xl d-none d-xl-block">
     <div class="container">
-        <div class="navbar-brand">
-            <a href="index.php">
-                <img src="assets/img/logo-uam-06.png" alt="uam, red, acelerográfica">
-            </a>
-        </div>
+        <a class="navbar-brand" href="index.php">
+            <img src="assets/img/logo-uam-06.png" alt="uam, red, acelerográfica">
+        </a>
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
@@ -93,7 +88,7 @@ if ($actual == "index.php") {
                 <li class="nav-item">
                     <a class="nav-link <?= $menu_6 ?>" <?= $curr_6 ?> href="historia.php" data-i18n="nav-history">Historia</a>
                 </li>
-                <select class="form-select w-auto h-50  bg-secondary text-white" id="lang-switcher" onChange="changeLanguage(this)">
+                <select class="form-select w-auto h-50  bg-secondary text-white" id="lang-switcher">
                     <option selected value="es">Español</option>
                     <option value="en">English</option>
                 </select>
