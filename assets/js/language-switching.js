@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let storedLang = "es";
-    const langSwitcher = document.getElementById("lang-switcher");
+    const storedLang = "es";
 
     if (localStorage.getItem("language")) {
         storedLang = localStorage.getItem("language");
@@ -14,11 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         window.i18n.setLanguage(storedLang);
     }
-
-    langSwitcher.addEventListener("change", () => {
-        const newLang = langSwitcher.value;
-        localStorage.setItem("language", newLang);
-
-        window.i18n.setLanguage(newLang);
-    });
 });
+
+function changeLanguage(languageSwitcher) {
+    const lang = languageSwitcher.value;
+    localStorage.setItem("language", lang);
+    window.i18n.setLanguage(lang);
+}
