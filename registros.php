@@ -38,19 +38,19 @@
                 <div class="row">
 
                     <div class="col-12">
-                        <h1 class="font-weight-bold">Registros</h1>
+                        <h1 class="font-weight-bold" data-i18n="records-title">Registros</h1>
                         <h3>Red Acelerográfica UAM</h3>
                     </div>
 
 
-                    <div class="col-12 offset-0 mt-5">
+                    <div class=" col-12 offset-0 mt-5">
                         <div class="table-responsive">
                             <table id="tabla-registros" class="table table-hover mt-4">
                                 <thead>
                                     <tr class="table-dark">
                                         <th>No.</th>
-                                        <th>Fecha (UTC)</th>
-                                        <th>UTC sismo</th>
+                                        <th data-i18n="th-date">Fecha (UTC)</th>
+                                        <th data-i18n="th-hour">UTC Sismo</th>
                                         <th data-bs-toggle="tooltip" title="Magnitud">M</th>
                                         <th>Lat N</th>
                                         <th>Long W</th>
@@ -62,8 +62,8 @@
                                         <th>RUML</th>
                                         <th>RIDR</th>
                                         <th>RUMC</th>
-                                        <th>Datos</th>
-                                        <th>Imagen</th>
+                                        <th data-i18n="th-data">Datos</th>
+                                        <th data-i18n="th-image">Imagen</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -131,7 +131,7 @@
                                                 <?php
                                                 if (!empty($arrDoc)) {
                                                     foreach ($arrDoc as $file) { ?>
-                                                        <a class="download-button" href="storage/data/<?= $file ?>" target="_blank" click>Descargar</a>
+                                                        <a class="download-button" href="storage/data/<?= $file ?>" target="_blank" click data-i18n="btn-download">Descargar</a>
                                                 <?php
                                                     }
                                                 }
@@ -156,20 +156,20 @@
         </section>
 
         <div class="col-12 contador-descargas">
-            <p> Contador de descargas: </p>
+            <p data-i18n="downloads-counter"> Contador de descargas: </p>
         </div>
 
         <div class="push"></div>
 
         <div class="aviso-cookies" id="aviso-cookies">
             <button type="button" class="btn-close" id="btn-cerrar-cookies" aria-label="Close"></button>
-            <h3 class="titulo">Políticas de uso</h3>
-            <p class="parrafo">Para descargar los registros de la aceleración debe estar de acuerdo con las políticas de uso. </p>
-            <p> Contenido: Archivos de aceleración proporcionados en el formato ascii estándar ASA2.0 pertenecen a la red acelerográfica del
-                Instituto de Ingeniería y NO PUEDEN SER REDISTRIBUIDOS en su forma original o modificada.</p>
-            <p> Citar: Al utilizar los datos proporcionados se solicita incluir en las publicaciones, reportes o trabajos la siguiente cita: “Los registros acelerográficos proporcionados han sido producto de las labores de instrumentación y procesamiento de la Red Acelerográfica de la Universidad Autónoma Metropolitana”.</p>
-            <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
-            <a class="enlace" href="aviso-cookies.html">Políticas</a>
+            <h3 class="titulo" data-i18n="title-use-policy">Políticas de uso</h3>
+            <p class="parrafo" data-i18n="content-use-policy-1">Para descargar los registros de la aceleración debe estar de acuerdo con las políticas de uso. </p>
+            <p data-i18n="content-use-policy-2"> Contenido: Archivos de aceleración proporcionados pertenecen a la Red Acelerográfica de la
+                Universidad Autonóma Metropolitana y NO PUEDEN SER REDISTRIBUIDOS en su forma original o modificada.</p>
+            <p data-i18n="content-use-policy-3"> Citar: Al utilizar los datos proporcionados se solicita incluir en las publicaciones, reportes o trabajos la siguiente cita: “Los registros acelerográficos proporcionados han sido producto de las labores de instrumentación y procesamiento de la Red Acelerográfica de la Universidad Autónoma Metropolitana”.</p>
+            <button class="boton" id="btn-aceptar-cookies" data-i18n="btn-use-policy">De acuerdo</button>
+            <!-- <a class="enlace" href="aviso-cookies.html" >Políticas</a> -->
         </div>
         <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
     </div>
