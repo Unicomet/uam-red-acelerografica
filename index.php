@@ -90,7 +90,7 @@
                 <div class="col-6 col-lg-3">
                     <a href="registros.php" class="d-block p-5 mb-2 bg-danger rounded text-white text-center">
                         <span class="iconify" data-icon="carbon:chart-line-data" style="font-size: 50px;"></span>
-                        <p class="pt-3 d-none d-md-block" data-i18n="home-buttons-registers">Ver registros</p>
+                        <p class="pt-3 d-md-block" data-i18n="home-buttons-registers">Registros</p>
                     </a>
                 </div>
             </div>
